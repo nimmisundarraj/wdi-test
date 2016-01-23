@@ -1,0 +1,66 @@
+﻿
+ <html>
+ 
+<head>
+<title><b> NEW PROGRAM </b></title>
+<script src="javascript.js"></script>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<!-- .............................Type 1.......................... -->
+ <h2><i>Type 1 - THE AGE CALCULATOR:)</i></h2>
+<p>Birth Year :
+    <input type="text" class="txt"name="birthyear" id="birthyear"   />
+</p>
+<p>Current Year :
+    <input type=" text"class="txt" name="currentyear" id="currentyear"   />
+</p><br/>
+<input type="button" class="submitButton"  value="Calculate Age" onClick="caculateAge(document.getElementById('birthyear').value,document.getElementById('currentyear').value);" />
+</div>
+<div id="tk1_r" name="tk1_r">
+ 
+ 
+
+<!-- .............................Type 2.......................... -->
+ 
+<h2><i>Type 2 - THE LIFETIME SUPPLY CALCULATOR:)</i></h2>
+<p>Age :
+    <input type="text"class="txt" name="age" id="age"   /><br/>
+</p>
+<p>Snacks /Day :
+    <input type="text"class="txt" name="amount" id="amount"   />
+</p><br />
+<input type="button" class="submitButton" value="Calculate Snacks" onClick="calculateSupply(document.getElementById('age').value,document.getElementById('amount').value);" />
+</div>
+ 
+ 
+ 
+<!-- .............................Type 3.......................... -->
+ 
+<h2><i>Type 3 - THE GEOMETRIZER:)</i></h2>
+<p>Radius of a Circle :
+    <input type="text" class="txt"name="radius" id="radius" maxlength="4"   />
+</p> <br />
+<input type="button" class="submitButton"  value="Calculate Area" onClick="calcArea(document.getElementById('radius').value);" />
+<br /><br />
+<input type="button" class="submitButton" value="Calculate Circumference" onClick="calcCircumfrence(document.getElementById('radius').value);" />
+ 
+</div>
+
+ 
+ 
+<!-- .............................Type 4.......................... -->
+ 
+<h2><i>Type 4 - THE TEMPERATURE CONVERTER:)</i></h2>
+<p>Temperature :
+    <input type="text"class="txt" name="temperature" id="temperature"   />
+</p><br />
+<input type="button" class="submitButton"value="Celsius to Fahrenheit" onClick="celsiusToFahrenheit(document.getElementById('temperature').value);" />
+<br /><br />
+<input type="button"class="submitButton"   value="Fahrenheit to Celsius " onClick="fahrenheitToCelsius(document.getElementById('temperature').value);" />
+ 
+</div>
+ 
+</body>
+ 
+</html>

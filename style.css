@@ -1,0 +1,32 @@
+body {
+width:960px;
+margin:0px auto;
+background-color :#000000;
+font-family:sans-seriff;
+font-size:14px;
+}
+
+h2 { color: #ff33ff;
+font-weight:bold;
+font-family:sans-seriff;
+font-size:30px;}
+
+.txt
+{
+width:200px;
+padding:6px;
+BORDER:2PX SOLID #ff4da6;
+border-radius:4px;
+margin-top:5px;
+}
+.submitButton{
+width:200px;
+padding:6px;
+background-color :#ff4da6;
+color:#330022
+font-weight:italics;
+}
+p{
+color:#ffffff;
+width:200px;
+}
